@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
