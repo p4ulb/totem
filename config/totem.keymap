@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        super {
+            bindings = <&kp LEFT_META>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
