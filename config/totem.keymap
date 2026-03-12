@@ -49,6 +49,11 @@
             bindings = <&kp LEFT_META>;
             key-positions = <10 11>;
         };
+
+        split-pane {
+            bindings = <&kp LA(LS(EQUAL))>;
+            key-positions = <1 4>;
+        };
     };
 
     macros {
