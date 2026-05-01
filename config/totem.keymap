@@ -47,7 +47,7 @@
 
         super {
             bindings = <&kp LEFT_META>;
-            key-positions = <10 11>;
+            key-positions = <34 23>;
         };
 
         split-pane {
