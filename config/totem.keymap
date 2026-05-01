@@ -85,6 +85,20 @@
             bindings = <&kp COLON &kp Q &kp EXCL &kp RET>;
             label = "VIM_Q";
         };
+
+        win_ter_split: terminal_split {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT &kp EQUAL>;
+            label = "TERMINAL_SPLIT";
+        };
+
+        wsl: wsl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp NUMBER_1 &kp W &kp S &kp L &kp RET>;
+            label = "WSL";
+        };
     };
 
     keymap {
