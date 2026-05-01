@@ -71,6 +71,20 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
+
+        vim_wq: vim_wq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp W &kp Q &kp EXCL &kp RET>;
+            label = "VIM_WQ";
+        };
+
+        vim_q: vim_q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Q &kp EXCL &kp RET>;
+            label = "VIM_Q";
+        };
     };
 
     keymap {
@@ -199,10 +213,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
-                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
+       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &vim_wq  &vim_q  &none  &none  &none
+       &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none    &none   &none  &none  &none
+&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none    &none   &none  &none  &none  &none
+                              &trans        &kp LC(F14)  &kp LC(F13)    &none    &none   &none
             >;
         };
 
