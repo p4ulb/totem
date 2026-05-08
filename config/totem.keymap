@@ -175,10 +175,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL  &kp AT  &kp HASH         &kp DLLR       &kp PRCNT            &kp CARET     &kp AMPS      &kp MINUS   &kp SQT     &kp DQT
-           &trans    &trans  &trans           &trans         &kp LA(LS(EQUAL))    &kp C_MUTE    &trans        &trans      &trans      &trans
-&kp GRAVE  &trans    &trans  &kp RA(TAB)      &kp LG(LS(S))  &kp LS(LA(A))        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp NON_US_BACKSLASH  &trans
-                             &kp RIGHT_SHIFT  &kp LEFT_GUI   &mo ADJ              &trans        &kp C_PP      &trans
+           &kp EXCL  &kp AT  &kp HASH         &kp DLLR                &kp PRCNT            &kp CARET     &kp AMPS      &kp MINUS   &kp SQT     &kp DQT
+           &trans    &trans  &trans           &kp LA(LC(LEFT_ARROW))  &kp LA(LS(EQUAL))    &kp C_MUTE    &trans        &trans      &trans      &trans
+&kp GRAVE  &trans    &trans  &kp RA(TAB)      &kp LG(LS(S))           &kp LS(LA(A))        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp NON_US_BACKSLASH  &trans
+                             &kp RIGHT_SHIFT  &kp LEFT_GUI            &mo ADJ              &trans        &kp C_PP      &trans
             >;
         };
 
