@@ -274,10 +274,10 @@
 
         var_layer {
             bindings = <
-        &trans  &trans  &trans  &trans  &kp CAPSLOCK    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans          &trans  &trans  &trans
+        &trans  &trans  &trans     &trans  &kp CAPSLOCK    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(C)  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
