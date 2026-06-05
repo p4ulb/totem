@@ -50,6 +50,16 @@
             key-positions = <16 17 18>;
             timeout-ms = <100>;
         };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <8 9>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -274,10 +284,10 @@
 
         var_layer {
             bindings = <
-        &trans  &trans  &trans     &trans  &kp CAPSLOCK    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LA(C)  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans     &trans  &trans          &trans  &trans  &trans
+        &trans  &trans  &trans     &trans  &kp CAPSLOCK         &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans     &trans  &kp RC(RA(RS(M)))    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(C)  &trans  &trans               &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans  &trans               &trans  &trans  &trans
             >;
         };
     };
