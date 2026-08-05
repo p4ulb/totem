@@ -171,10 +171,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp ESC    &kp PLUS   &kp UP      &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MINUS
-                  &kp LSHFT  &kp LEFT   &kp DOWN    &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_DOT
-&kp LEFT_CONTROL  &kp DEL    &kp PG_UP  &trans      &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &trans
-                                        &bt BT_CLR  &trans     &trans      &mo 3     &kp KP_N0  &kp KP_NUM
+                  &kp ESC    &kp PLUS   &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MINUS
+                  &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_DOT
+&kp LEFT_CONTROL  &kp DEL    &kp PG_UP  &trans    &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &bt BT_CLR
+                                        &none     &trans     &trans      &mo 3     &kp KP_N0  &kp KP_NUM
             >;
         };
 
