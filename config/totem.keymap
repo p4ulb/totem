@@ -60,6 +60,11 @@
             bindings = <&kp HOME>;
             key-positions = <0 1>;
         };
+
+        wombo {
+            bindings = <&wombo>;
+            key-positions = <2 6 7>;
+        };
     };
 
     macros {
@@ -120,6 +125,13 @@
                 <&kp W &kp S &kp L &kp RET>;
 
             label = "WSL";
+        };
+
+        wombo: wombo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(L) &kp P &kp R &kp X &kp LS(Y) &kp J &kp O &kp C &kp Z &kp Z &kp Q &kp R &kp N9 &kp S &kp LS(J) &kp Z &kp Q &kp LS(F) &kp N2 &kp N7 &kp T &kp LS(W) &kp LS(X) &kp N2 &kp N4 &kp F &kp LS(V) &kp T &kp T &kp EXCL>;
+            label = "WOMBO";
         };
     };
 
